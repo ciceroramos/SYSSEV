@@ -133,7 +133,7 @@ public class ViewClientes extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/print.png"))); // NOI18N
         jButton1.setText("Imprimir Cliente");
-        jButton1.setBorder(null);
+        jButton1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         jButton1.setContentAreaFilled(false);
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -171,7 +171,7 @@ public class ViewClientes extends javax.swing.JFrame {
         jbExcluir.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jbExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Delete.png"))); // NOI18N
         jbExcluir.setText("Excluir");
-        jbExcluir.setBorder(null);
+        jbExcluir.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         jbExcluir.setContentAreaFilled(false);
         jbExcluir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbExcluir.addActionListener(new java.awt.event.ActionListener() {
@@ -233,7 +233,7 @@ public class ViewClientes extends javax.swing.JFrame {
         btAlterar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Modify.png"))); // NOI18N
         btAlterar.setText("Alterar");
-        btAlterar.setBorder(null);
+        btAlterar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btAlterar.setContentAreaFilled(false);
         btAlterar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btAlterar.addActionListener(new java.awt.event.ActionListener() {
@@ -245,7 +245,7 @@ public class ViewClientes extends javax.swing.JFrame {
         btNovo.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btNovo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Add.png"))); // NOI18N
         btNovo.setText("Novo");
-        btNovo.setBorder(null);
+        btNovo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btNovo.setContentAreaFilled(false);
         btNovo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btNovo.addActionListener(new java.awt.event.ActionListener() {
@@ -257,7 +257,7 @@ public class ViewClientes extends javax.swing.JFrame {
         btExportExcel.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btExportExcel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Table.png"))); // NOI18N
         btExportExcel.setText("Exportar Planilha");
-        btExportExcel.setBorder(null);
+        btExportExcel.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btExportExcel.setContentAreaFilled(false);
         btExportExcel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btExportExcel.addActionListener(new java.awt.event.ActionListener() {
@@ -497,7 +497,7 @@ public class ViewClientes extends javax.swing.JFrame {
         btSalvar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btSalvar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Save.png"))); // NOI18N
         btSalvar.setText("Salvar");
-        btSalvar.setBorder(null);
+        btSalvar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btSalvar.setContentAreaFilled(false);
         btSalvar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btSalvar.setEnabled(false);
@@ -510,7 +510,7 @@ public class ViewClientes extends javax.swing.JFrame {
         btCancelar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/No.png"))); // NOI18N
         btCancelar.setText("Cancelar");
-        btCancelar.setBorder(null);
+        btCancelar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btCancelar.setContentAreaFilled(false);
         btCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btCancelar.addActionListener(new java.awt.event.ActionListener() {

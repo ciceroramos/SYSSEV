@@ -171,6 +171,8 @@ public class ViewVeiculos extends javax.swing.JFrame {
         cbEncostoCabeca = new javax.swing.JCheckBox();
         cbVolante = new javax.swing.JCheckBox();
         cbNeblina = new javax.swing.JCheckBox();
+        cbKM1 = new javax.swing.JCheckBox();
+        cbTetoSolar1 = new javax.swing.JCheckBox();
         jPanel4 = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
@@ -514,7 +516,7 @@ public class ViewVeiculos extends javax.swing.JFrame {
         btCancelar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/Turn off.png"))); // NOI18N
         btCancelar.setText("Cancelar");
-        btCancelar.setBorder(null);
+        btCancelar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btCancelar.setContentAreaFilled(false);
         btCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -526,7 +528,7 @@ public class ViewVeiculos extends javax.swing.JFrame {
         btSalvar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btSalvar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/Apply.png"))); // NOI18N
         btSalvar.setText("Salvar");
-        btSalvar.setBorder(null);
+        btSalvar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btSalvar.setContentAreaFilled(false);
         btSalvar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btSalvar.addActionListener(new java.awt.event.ActionListener() {
@@ -677,7 +679,6 @@ public class ViewVeiculos extends javax.swing.JFrame {
 
         jDate.setBackground(new java.awt.Color(204, 255, 204));
         jDate.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(238, 238, 238), 1, true));
-        jDate.setForeground(new java.awt.Color(0, 0, 0));
         jDate.setEnabled(false);
         jDate.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
 
@@ -840,6 +841,15 @@ public class ViewVeiculos extends javax.swing.JFrame {
         cbNeblina.setText("Farol de Neblina");
         cbNeblina.setEnabled(false);
 
+        cbKM1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        cbKM1.setText("Kit Multimídea");
+        cbKM1.setEnabled(false);
+        cbKM1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
+        cbTetoSolar1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        cbTetoSolar1.setText("Teto Solar");
+        cbTetoSolar1.setEnabled(false);
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -858,7 +868,8 @@ public class ViewVeiculos extends javax.swing.JFrame {
                     .addComponent(cbKM)
                     .addComponent(cbABS)
                     .addComponent(cbSom)
-                    .addComponent(cbVolante))
+                    .addComponent(cbVolante)
+                    .addComponent(cbKM1))
                 .addGap(30, 30, 30)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(cbNeblina)
@@ -875,7 +886,8 @@ public class ViewVeiculos extends javax.swing.JFrame {
                     .addComponent(cbComputadorBordo)
                     .addComponent(cbArQuente)
                     .addComponent(cbRetrovisor)
-                    .addComponent(cbSensorEsta))
+                    .addComponent(cbSensorEsta)
+                    .addComponent(cbTetoSolar1))
                 .addGap(34, 34, 34))
         );
         jPanel3Layout.setVerticalGroup(
@@ -908,6 +920,10 @@ public class ViewVeiculos extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(cbSom)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 5, Short.MAX_VALUE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(cbTetoSolar1)
+                    .addComponent(cbKM1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(cbTetoSolar)
                     .addComponent(cbKM))
@@ -1184,7 +1200,7 @@ public class ViewVeiculos extends javax.swing.JFrame {
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cBfreioTraseiro)
                     .addComponent(cBrodaLeve))
-                .addContainerGap(123, Short.MAX_VALUE))
+                .addContainerGap(141, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Opcionais Motos", jPanel5);
@@ -2679,6 +2695,7 @@ public class ViewVeiculos extends javax.swing.JFrame {
     private javax.swing.JCheckBox cbEncostoCabeca;
     private javax.swing.JCheckBox cbGPS;
     private javax.swing.JCheckBox cbKM;
+    private javax.swing.JCheckBox cbKM1;
     private javax.swing.JCheckBox cbLimpadorTrazeiro;
     private javax.swing.JComboBox cbMarca;
     private javax.swing.JCheckBox cbNeblina;
@@ -2688,6 +2705,7 @@ public class ViewVeiculos extends javax.swing.JFrame {
     private javax.swing.JCheckBox cbSom;
     private javax.swing.JCheckBox cbTE;
     private javax.swing.JCheckBox cbTetoSolar;
+    private javax.swing.JCheckBox cbTetoSolar1;
     private javax.swing.JCheckBox cbVE;
     private javax.swing.JCheckBox cbVolante;
     private javax.swing.JComboBox cblCombustivel;

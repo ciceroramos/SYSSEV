@@ -64,7 +64,7 @@ public class ViewUsuario extends javax.swing.JFrame {
         setTitle("Usuários <<SysSev>");
         setResizable(false);
 
-        jTabbedPaneTipoProduto.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
+        jTabbedPaneTipoProduto.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
 
         jtfCodigo.setEditable(false);
         jtfCodigo.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
@@ -91,7 +91,7 @@ public class ViewUsuario extends javax.swing.JFrame {
         jbConfirmarAlteracao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Save.png"))); // NOI18N
         jbConfirmarAlteracao.setText("Salvar Alteração");
         jbConfirmarAlteracao.setToolTipText("Confirmar alteração no cadastro do tipo do produto");
-        jbConfirmarAlteracao.setBorder(null);
+        jbConfirmarAlteracao.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         jbConfirmarAlteracao.setContentAreaFilled(false);
         jbConfirmarAlteracao.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbConfirmarAlteracao.setEnabled(false);
@@ -105,7 +105,7 @@ public class ViewUsuario extends javax.swing.JFrame {
         jbCadastrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Save.png"))); // NOI18N
         jbCadastrar.setText("Salvar");
         jbCadastrar.setToolTipText("Salvar cadastro do tipo de produto");
-        jbCadastrar.setBorder(null);
+        jbCadastrar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         jbCadastrar.setContentAreaFilled(false);
         jbCadastrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbCadastrar.setEnabled(false);
@@ -119,7 +119,7 @@ public class ViewUsuario extends javax.swing.JFrame {
         jbCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/No.png"))); // NOI18N
         jbCancelar.setText("Cancelar");
         jbCancelar.setToolTipText("Cancelar operação");
-        jbCancelar.setBorder(null);
+        jbCancelar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         jbCancelar.setContentAreaFilled(false);
         jbCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +132,7 @@ public class ViewUsuario extends javax.swing.JFrame {
         jbNovo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Add.png"))); // NOI18N
         jbNovo.setText("Novo");
         jbNovo.setToolTipText("Limpar todos os campos");
-        jbNovo.setBorder(null);
+        jbNovo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         jbNovo.setContentAreaFilled(false);
         jbNovo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbNovo.addActionListener(new java.awt.event.ActionListener() {
@@ -275,7 +275,7 @@ public class ViewUsuario extends javax.swing.JFrame {
                     .addComponent(jtfConfirmarSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
                 .addGroup(jpCadastroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jbConfirmarAlteracao, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jbCadastrar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -326,7 +326,7 @@ public class ViewUsuario extends javax.swing.JFrame {
         jbExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Delete.png"))); // NOI18N
         jbExcluir.setText("Excluir");
         jbExcluir.setToolTipText("Excluir tipo de produto selecionado");
-        jbExcluir.setBorder(null);
+        jbExcluir.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         jbExcluir.setContentAreaFilled(false);
         jbExcluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -338,7 +338,7 @@ public class ViewUsuario extends javax.swing.JFrame {
         jButtonAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Modify.png"))); // NOI18N
         jButtonAlterar.setText("Alterar");
         jButtonAlterar.setToolTipText("Alterar tipo de produto selecionado");
-        jButtonAlterar.setBorder(null);
+        jButtonAlterar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         jButtonAlterar.setContentAreaFilled(false);
         jButtonAlterar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -367,8 +367,8 @@ public class ViewUsuario extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 390, Short.MAX_VALUE)
                 .addGap(15, 15, 15)
                 .addGroup(jpConsultaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jbExcluir, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtonAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jbExcluir, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 

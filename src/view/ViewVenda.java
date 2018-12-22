@@ -195,7 +195,7 @@ public class ViewVenda extends javax.swing.JFrame {
         btAlterar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/Modify.png"))); // NOI18N
         btAlterar.setText("ALTERAR");
-        btAlterar.setBorder(null);
+        btAlterar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btAlterar.setContentAreaFilled(false);
         btAlterar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btAlterar.addActionListener(new java.awt.event.ActionListener() {
@@ -207,7 +207,7 @@ public class ViewVenda extends javax.swing.JFrame {
         btExcluir.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/Delete.png"))); // NOI18N
         btExcluir.setText("EXCLUIR");
-        btExcluir.setBorder(null);
+        btExcluir.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btExcluir.setContentAreaFilled(false);
         btExcluir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btExcluir.addActionListener(new java.awt.event.ActionListener() {
@@ -219,7 +219,7 @@ public class ViewVenda extends javax.swing.JFrame {
         btImprimir.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btImprimir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/print.png"))); // NOI18N
         btImprimir.setText("IMPRIMIR");
-        btImprimir.setBorder(null);
+        btImprimir.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btImprimir.setContentAreaFilled(false);
         btImprimir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btImprimir.addActionListener(new java.awt.event.ActionListener() {
@@ -231,7 +231,7 @@ public class ViewVenda extends javax.swing.JFrame {
         btNovo.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btNovo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/Add.png"))); // NOI18N
         btNovo.setText("NOVA");
-        btNovo.setBorder(null);
+        btNovo.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btNovo.setContentAreaFilled(false);
         btNovo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btNovo.addActionListener(new java.awt.event.ActionListener() {
@@ -286,12 +286,11 @@ public class ViewVenda extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 841, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(btNovo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btExcluir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btImprimir))
-                    .addComponent(btAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(28, Short.MAX_VALUE))
+                    .addComponent(btAlterar, javax.swing.GroupLayout.DEFAULT_SIZE, 114, Short.MAX_VALUE)
+                    .addComponent(btImprimir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btExcluir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btNovo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(30, 30, 30))
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(27, 27, 27)
                 .addComponent(jLabel27)
@@ -320,7 +319,7 @@ public class ViewVenda extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                        .addGap(0, 106, Short.MAX_VALUE)
+                        .addGap(0, 101, Short.MAX_VALUE)
                         .addComponent(btNovo, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(50, 50, 50)
                         .addComponent(btAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -945,7 +944,7 @@ public class ViewVenda extends javax.swing.JFrame {
         btCancelar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/No.png"))); // NOI18N
         btCancelar.setText("Cancelar");
-        btCancelar.setBorder(null);
+        btCancelar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btCancelar.setContentAreaFilled(false);
         btCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -957,7 +956,7 @@ public class ViewVenda extends javax.swing.JFrame {
         btFinalizar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btFinalizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/Apply.png"))); // NOI18N
         btFinalizar.setText("FINALIZAR");
-        btFinalizar.setBorder(null);
+        btFinalizar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btFinalizar.setContentAreaFilled(false);
         btFinalizar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btFinalizar.addActionListener(new java.awt.event.ActionListener() {
@@ -1006,7 +1005,7 @@ public class ViewVenda extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jTabbedPane1)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

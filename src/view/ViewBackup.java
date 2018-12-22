@@ -52,9 +52,10 @@ public class ViewBackup extends javax.swing.JFrame {
         tfCaminho.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         tfCaminho.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 1, 1, 1, new java.awt.Color(0, 0, 0)));
 
-        btCaminho.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btCaminho.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btCaminho.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Folder.png"))); // NOI18N
         btCaminho.setText("Caminho");
+        btCaminho.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btCaminho.setContentAreaFilled(false);
         btCaminho.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btCaminho.addActionListener(new java.awt.event.ActionListener() {
@@ -63,9 +64,10 @@ public class ViewBackup extends javax.swing.JFrame {
             }
         });
 
-        btBackup.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btBackup.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btBackup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Database.png"))); // NOI18N
         btBackup.setText("Iniciar Backup ");
+        btBackup.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(102, 102, 102), 1, true));
         btBackup.setContentAreaFilled(false);
         btBackup.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btBackup.addActionListener(new java.awt.event.ActionListener() {
@@ -92,11 +94,11 @@ public class ViewBackup extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(tfCaminho, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
-                        .addComponent(btCaminho))
+                        .addGap(18, 18, 18)
+                        .addComponent(btCaminho, javax.swing.GroupLayout.DEFAULT_SIZE, 96, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(btBackup)
-                        .addGap(46, 46, 46)
+                        .addComponent(btBackup, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(30, 30, 30)
                         .addComponent(jlMensagem, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
@@ -110,10 +112,12 @@ public class ViewBackup extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel2)
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(tfCaminho, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btCaminho))
-                .addGap(20, 20, 20)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(btCaminho, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btBackup, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jlMensagem, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
